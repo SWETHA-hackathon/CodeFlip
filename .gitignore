@@ -1,0 +1,7 @@
+# Node and build artifacts
+node_modules/
+.next/
+out/
+dist/
+*.log
+.env
