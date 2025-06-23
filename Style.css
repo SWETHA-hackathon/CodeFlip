@@ -1,0 +1,62 @@
+/* 1. General Body Styling */
+body {
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: #1e1e2f;
+color: #e0e0e0;
+}
+/* 2. Header Styling */
+header {
+background: linear-gradient(to right, #2c3e50, #4ca1af);
+color: #fff;
+text-align: center;
+padding: 50px 20px;
+}
+header h1 {
+font-size: 48px;
+margin-bottom: 10px;
+}
+header p {
+font-size: 20px;
+margin: 0 auto;
+max-width: 700px;
+}
+/* 3. Section Styling */
+section {
+padding: 40px 20px;
+max-width: 900px;
+
+margin: auto;
+background-color: #28293d;
+border-radius: 12px;
+margin-top: 20px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+section h2 {
+color: #00bfa6;
+margin-bottom: 15px;
+}
+ul li {
+margin-bottom: 10px;
+}
+/* 4. Link Styling */
+a {
+color: #00bfa6;
+font-weight: bold;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+a:hover {
+color: #ffd54f;
+text-decoration: underline;
+}
+/* 5. Footer */
+footer {
+text-align: center;
+padding: 20px;
+background-color: #141421;
+color: #ccc;
+margin-top: 40px;
+font-size: 14px;
+}
